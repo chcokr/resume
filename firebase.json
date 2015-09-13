@@ -1,0 +1,10 @@
+{
+  "firebase": "chcokr-resume",
+  "public": "dist",
+  "ignore": [
+    "src/",
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
