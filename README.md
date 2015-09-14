@@ -1,4 +1,4 @@
-# My resume, written in React.
+# My resume, written in React
 
 ## Commands
 
