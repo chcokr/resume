@@ -1,2 +1,49 @@
 @import "../node_modules/bootstrap/less/bootstrap";
 @import "../node_modules/chcokr-bootstrap-reset/reset";
+
+@font-family-serif: "Times New Roman", Times, serif;
+@font-family-base: @font-family-serif;
+
+@font-size-base: 12px;
+@font-size-large: 16px;
+@font-size-small: 9px;
+
+@font-size-h1: 21px;
+@font-size-h2: 12px;
+@font-size-h3: 12px;
+
+@screen-sm-min: 650px;
+
+@container-tablet: (650px + @grid-gutter-width);
+@container-desktop: (650px + @grid-gutter-width);
+@container-large-desktop: (650px + @grid-gutter-width);
+
+@margin-between-items: 7.8px;
+
+@media print {
+  a, a:link, a:visited {
+    color: @link-color !important; // Restore link colors on print.
+  }
+}
+a:after, a:link:after, a:visited:after {
+  content: ""; // Prevent link URLs from showing up in prints
+}
+a {
+  font-size: @font-size-small;
+}
+h2 {
+  font-weight: 700;
+  margin: 0 0 @margin-between-items 0;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+h3 {
+  margin: 0 0 (@margin-between-items / 2) 0;
+}
+ul {
+  margin-bottom: 0;
+}
+.jumbotron {
+  background-color: transparent;
+  padding: 0;
+}
