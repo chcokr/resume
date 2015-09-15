@@ -123,7 +123,7 @@ export default class App extends React.Component {
               period="Mar 2015 - Present">
               <ul>
                 <li>
-                  Research lateral root pattern genration of the Arabidopsis
+                  Research lateral root pattern generation of the Arabidopsis
                   root using MATLAB
                   <HttpsLinkInParens
                     href="github.com/chcokr/root-growth-matlab" />
@@ -177,14 +177,14 @@ export default class App extends React.Component {
               <li>
                 <b>babel-plugin-stilr-classnames: </b>
                 Authored a <b><i>Babel plugin</i></b> that statically evaluates
-                uses of CSS-in-js style definitions for use in hot-loaded and
+                uses of CSS-in-JS style definitions for use in hot-loaded and
                 production environments.
                 <HttpsLinkInParens
                   href="github.com/chcokr/babel-plugin-stilr-classnames" />
               </li>
               <li>
                 <b>extract-stilr-webpack-plugin: </b>
-                Authored a <b><i>Webpack plugin</i></b> that extracts CSS-in-js
+                Authored a <b><i>Webpack plugin</i></b> that extracts CSS-in-JS
                 style definitions into a single CSS file, for production use.
                 <HttpsLinkInParens
                   href="github.com/chcokr/extract-stilr-webpack-plugin" />
