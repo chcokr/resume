@@ -178,14 +178,14 @@ export default class App extends React.Component {
                 <b>babel-plugin-stilr-classnames: </b>
                 Authored a <b><i>Babel plugin</i></b> that statically evaluates
                 uses of CSS-in-JS style definitions for use in hot-loaded and
-                production environments.
+                production environments
                 <HttpsLinkInParens
                   href="github.com/chcokr/babel-plugin-stilr-classnames" />
               </li>
               <li>
                 <b>extract-stilr-webpack-plugin: </b>
                 Authored a <b><i>Webpack plugin</i></b> that extracts CSS-in-JS
-                style definitions into a single CSS file, for production use.
+                style definitions into a single CSS file, for production use
                 <HttpsLinkInParens
                   href="github.com/chcokr/extract-stilr-webpack-plugin" />
               </li>
@@ -193,7 +193,7 @@ export default class App extends React.Component {
                 <b>less-interop-loader: </b>
                 Authored a <b><i>Webpack loader</i></b> that leverages the
                 abstract syntax tree of LESS code to import its variables into
-                JavaScript.
+                JavaScript
                 <HttpsLinkInParens
                   href="github.com/chcokr/less-interop-loader" />
               </li>
@@ -202,7 +202,7 @@ export default class App extends React.Component {
                 Implemented the file-watching feature of the Markdown parser
                 <HttpsLinkInParens
                   href="github.com/wooorm/mdast/pull/57" />,
-                and wrote a custom Markdown lint rule.
+                and wrote a custom Markdown lint rule
                 <HttpsLinkInParens
                   href="github.com/chcokr/mdast-lint-sentence-newline" />
               </li>
