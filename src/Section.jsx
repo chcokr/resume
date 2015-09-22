@@ -1,5 +1,3 @@
-import lessVars from '!!less-interop-loader!./App.less'
-
 import React from 'react';
 import {
   Jumbotron
